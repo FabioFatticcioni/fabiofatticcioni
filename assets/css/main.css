@@ -1917,7 +1917,7 @@ input, select, textarea {
 
 		}
 
-/* Main */
+/* Main - penso sia tutto il setup per le animazioni di quando scrolli*/
 
 	.main {
 		display: -moz-flex;
@@ -2241,32 +2241,14 @@ input, select, textarea {
 
 		}
 
-/* Intro */
+/* portfolio -- questa è la parte di portfolio nella pagina index.html (quindi home page/portfolio del sito) */
 
-	#intro {
+	#portfolio {
 		background: url("images/overlay.png"), url("../../images/visual dev/fabio-fatticcioni-illustration-1.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
-	}
-
-/* One */
-
-	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
-
-/* Two */
-
-	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
 	}
 
 /* Contact */
