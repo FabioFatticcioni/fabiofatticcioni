@@ -1229,7 +1229,7 @@ input, select, textarea {
 
 /* Poptrox */
 
-	.poptrox-popup {
+/*	.poptrox-popup {
 		-moz-box-sizing: content-box;
 		-webkit-box-sizing: content-box;
 		-ms-box-sizing: content-box;
@@ -1413,11 +1413,10 @@ input, select, textarea {
 				background-size: contain;
 				opacity: 0.65;
 			}
-
-		}
+*/
 
 /* Gallery */
-
+		/* è tutto il box "portfolio" */
 	.gallery {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -1804,6 +1803,26 @@ input, select, textarea {
 				-ms-transform: translateY(7em);
 				transform: translateY(7em);
 			}
+
+		.image-container {
+			position: relative;
+			overflow: hidden;
+			width: 45em;
+			max-width: 100%;
+			margin: 0 auto 2em auto;
+		}
+
+		.hover-zoom {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			transition: transform 0.3s, filter 0.3s;
+		}
+
+	 	.image-container:hover .hover-zoom{
+			transform: scale(1.1);
+			filter: brightness(0.7);
+		}
 
 		@media screen and (max-width: 480px) {
 

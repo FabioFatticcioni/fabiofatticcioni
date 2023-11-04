@@ -1,0 +1,108 @@
+/* Reset CSS styles for consistent rendering */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../images/visual dev/fabio-fatticcioni-illustration-1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+.header .logo h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+#hero {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 48px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.arrow-button {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+#portfolio {
+    background-color: #fff;
+    padding: 50px 0;
+    z-index: 1;
+}
+
+#portfolio h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.portfolio-items {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.portfolio-item {
+    margin: 20px;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.portfolio-item a img {
+    max-width: 100%;
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    max-width: 30px;
+}
+
+/* Aggiungi qui le animazioni per le immagini del portfolio al momento dello scroll */
